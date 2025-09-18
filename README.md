@@ -63,59 +63,6 @@ Aula03_PI_CC/
 
 ---
 
-## 📌 Endpoints disponíveis
-
-### ➕ Criar aluno
-```
-POST /alunos
-```
-**Body (JSON):**
-```json
-{
-  "nome": "Maria",
-  "idade": 20,
-  "curso": "Engenharia"
-}
-```
-
----
-
-### 📋 Listar todos os alunos
-```
-GET /alunos
-```
-
----
-
-### 🔍 Buscar aluno por ID
-```
-GET /alunos/:id
-```
-
----
-
-### ✏️ Atualizar aluno
-```
-PUT /alunos/:id
-```
-**Body (JSON):**
-```json
-{
-  "nome": "Maria Silva",
-  "idade": 21,
-  "curso": "Sistemas de Informação"
-}
-```
-
----
-
-### ❌ Deletar aluno
-```
-DELETE /alunos/:id
-```
-
----
-
 ## ⚙️ Como executar a API
 
 ### 1️⃣ Clonar o repositório
